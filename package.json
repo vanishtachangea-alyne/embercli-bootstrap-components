@@ -1,9 +1,11 @@
 {
   "name": "embercli-bootstrap-components",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "This addon provides components for using bootstrap 4 in Ember",
   "keywords": [
-    "ember-addon"
+    "ember-addon", 
+    "bootstrap 4",
+    "ember bootstrap components"
   ],
   "repository": "",
   "license": "MIT",
@@ -20,7 +22,9 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.6.0"
+    "ember-cli-babel": "^6.6.0",
+    "ember-cli-bootstrap-4":"^0.5.6",
+    "ember-cli-htmlbars": "^2.0.1"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.7.0",
@@ -28,7 +32,7 @@
     "ember-cli": "~3.3.0",
     "ember-cli-dependency-checker": "^2.0.0",
     "ember-cli-eslint": "^4.2.1",
-    "ember-cli-htmlbars": "^2.0.1",
+    
     "ember-cli-htmlbars-inline-precompile": "^1.0.0",
     "ember-cli-inject-live-reload": "^1.4.1",
     "ember-cli-qunit": "^4.3.2",
