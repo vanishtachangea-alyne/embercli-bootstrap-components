@@ -1,3 +1,22 @@
-<h2 id="title">Welcome to Ember</h2>
+<div class="container">
+    <h2 id="title">Welcome to Ember cli bootstrap cmponents</h2>
+    <div class="m-4">
+        <h3>Block based usage</h3>
+        {{#bs-modal id="blockModal"}}
+        Some Sample Content
+        {{/bs-modal}}
+        <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#blockModal">Trigger Block
+            Modal</button>
+    </div>
+    <div class="m-4">
+        <h3>Non Block based usage</h3>
+        {{#bs-modal id="nonBlockModal"}}
+        Some Sample Content
+        {{/bs-modal}}
+        <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#nonBlockModal">Trigger Non Block
+            Modal</button>
+    </div>
+</div>
+
 
 {{outlet}}
